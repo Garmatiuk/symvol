@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Символ</title>
+</head>
+<body class="body">
+<header class="header">
+    <div class="container">
+        <nav class="header-menu">
+            <a class="menu-logo" href="#">
+                <img src="img/logotype.png" alt="Site logotype">
+            </a>
+            <ul class="menu-items">
+                <li class="menu-items__item">
+                    <a class="menu-link" href="#opportunities">про нас</a>
+                </li>
+                <li class="menu-items__item">
+                    <a class="menu-link" href="#production">продукція та послуги</a>
+                </li>
+                <li class="menu-items__item">
+                    <a class="menu-link" href="#mail">контакти</a>
+                </li>
+            </ul>
+            <a class="menu-contact__btn myBtn" data-bid="mail-form" href="javascript:void(0);">зв'язатися з нами</a>
+            <!-- Hamburegr menu icon -->
+		    <ul class="header-hamburger__hide">
+                <li class="nav-item header-hamb__menu" >
+                  <div class="container-humburger" id="burger" onclick="openHam(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </li>
+            </ul>
+            <!-- End of hamburegr menu icon -->
+            </nav>
+          <!-- End header menu -->
+          <!-- Hamburger menu -->
+            <div id="main-ham">
+                <div id="ham-second" class="hide">
+                    <div class="main-hamburger__user">
+                        <h1 class="main-hamburger__title">Меню</h1>
+                    </div>
+                    <ul class="ham-items">
+                        <li class="ham-items__item">
+                            <a class="ham-link" href="#opportunities">про нас</a>
+                        </li>
+                        <li class="ham-items__item">
+                            <a class="ham-link" href="#production">продукція та послуги</a>
+                        </li>
+                        <li class="ham-items__item">
+                            <a class="ham-link" href="#mail">контакти</a>
+                        </li>
+                    </ul>
+                    <a class="ham-contact__btn myBtn" data-bid="mail-form" href="javascript:void(0);">зв'язатися з нами</a>
+              </div>
+            </div>
+          <!-- Hamburger menu -->
+    </div>
+</header>
+<main>
+    <div class="intro-block__width">
+        <div class="container">
+            <div class="intro-slider">
+                <div>
+                    <div class="intro-block">
+                        <div class="info">
+                            <h1 class="info-ttl">Повний цифровий цикл</h1>
+                            <p class="info-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="img/intro-printer.png" alt="printer">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="intro-block">
+                        <div class="info">
+                            <h1 class="info-ttl">Повний цифровий цикл 2</h1>
+                            <p class="info-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="img/intro-printer.png" alt="printer">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="intro-block">
+                        <div class="info">
+                            <h1 class="info-ttl">Повний цифровий цикл 3</h1>
+                            <p class="info-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                        </div>
+                        <div class="img-wrap">
+                            <img src="img/intro-printer.png" alt="printer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <div id="opportunities">
+            <h1 class="opportunities-ttl">НАШІ МОЖЛИВОСТІ</h1>
+            <p class="opportunities-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+            <div class="opportunities-blocks" >
+                <div class="block">
+                    <h3 class="block-ttl">Післядрукарська обробка</h3>
+                    <p class="block-txt">Застосовуємо різні способи обробки і декорування: тиснення, конгрев, вирубку, лазерну різку і багато інших.</p>
+                    <img src="img/opp-img1.png" alt="block img">
+                </div>
+                <div class="block">
+                    <h3 class="block-ttl">Цифровий друк</h3>
+                    <p class="block-txt">Застосовуємо різні способи обробки і декорування: тиснення, конгрев, вирубку, лазерну різку і багато інших.</p>
+                    <img src="img/opp-img2.png" alt="block img">
+                </div>
+                <div class="block">
+                    <h3 class="block-ttl">Офсетний друк</h3>
+                    <p class="block-txt">Застосовуємо різні способи обробки і декорування: тиснення, конгрев, вирубку, лазерну різку і багато інших.</p>
+                    <img src="img/opp-img3.png" alt="block img">
+                </div>
+            </div>
+        </div>
+        <div class="production-tab__width" id="production">
+            <h1 class="production-ttl">ПРОДУКЦІЯ</h1>
+            <div class="production-tab">
+                <a href="javascript:void(0);" class="tablinks" onclick="openTab(event, 'Promotional')" id="defaultOpen">Рекламна продукція</a>
+                <a href="javascript:void(0);" class="tablinks" onclick="openTab(event, 'Calendars')">Календарі</a>
+                <a href="javascript:void(0);" class="tablinks" onclick="openTab(event, 'Packaging')">Упаковка</a>
+                <a href="javascript:void(0);" class="tablinks" onclick="openTab(event, 'Pos')">POS-матеріали</a>
+                <a href="javascript:void(0);" class="tablinks" onclick="openTab(event, 'Books')">Книги та журнали</a>
+            </div>
+                
+            <!-- Tab content -->
+            <div id="Promotional" class="tabcontent">
+                <div class="tabcontent-info">
+                    <h3 class="tabcontent-info__ttl">Рекламна поліграфія</h3>
+                    <p class="tabcontent-info__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                </div>
+                <div class="tabcontent-img">
+                    <img src="img/tabcontent-img.png" alt="tabcontent image">
+                </div>
+            </div>
+            <div id="Calendars" class="tabcontent">
+                <div class="tabcontent-info">
+                    <h3 class="tabcontent-info__ttl">Календарі</h3>
+                    <p class="tabcontent-info__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                </div>
+                <div class="tabcontent-img">
+                    <img src="img/tabcontent-img.png" alt="tabcontent image">
+                </div>
+            </div>
+            <div id="Packaging" class="tabcontent">
+                <div class="tabcontent-info">
+                    <h3 class="tabcontent-info__ttl">Упаковка</h3>
+                    <p class="tabcontent-info__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                </div>
+                <div class="tabcontent-img">
+                    <img src="img/tabcontent-img.png" alt="tabcontent image">
+                </div>
+            </div>
+            <div id="Pos" class="tabcontent">
+                <div class="tabcontent-info">
+                    <h3 class="tabcontent-info__ttl">POS-матеріали</h3>
+                    <p class="tabcontent-info__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                </div>
+                <div class="tabcontent-img">
+                    <img src="img/tabcontent-img.png" alt="tabcontent image">
+                </div>
+            </div>
+            <div id="Books" class="tabcontent">
+                <div class="tabcontent-info">
+                    <h3 class="tabcontent-info__ttl">Книги та журнали</h3>
+                    <p class="tabcontent-info__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                </div>
+                <div class="tabcontent-img">
+                    <img src="img/tabcontent-img.png" alt="tabcontent image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mail-block__width" id="mail">
+        <div class="container">
+            <div class="mail">
+                <form action="#" class="mail-form" id="mainMailForm" name="mainMailForm">
+                    <h1 class="mail-form__ttl">відправити запит</h1>
+                    <div class="mail-form__group">
+                        <input type="text" class="inp" name="name" id="name" maxlength="20" placeholder="Ім'я">
+                    </div>
+                    <div class="mail-form__group">
+                        <input type="text" class="inp" name="phone" id="phone" placeholder="Контактний телефон">
+                    </div>
+                    <div class="mail-form__group">
+                        <input type="text" class="inp" name="comment" id="comment" placeholder="Коментарі">
+                    </div>
+                    <div class="mail-form__group file-upload-wrapper" data-text="Прикріпіть, або перетягніть">
+                        <input name="file-upload-field" type="file" class="file-upload-field" value="" id="file">
+                    </div>
+                    <span class="mail-form__subinfo">*Ви можете прикріпити файл до заявки</span>
+                    <button type="submit" class="mail-form__btn" name="mail-submit" onclick="validMain(document.getElementById('mainMailForm'))">надіслати</button>
+                </form>
+                <div class="mail-img">
+                    <img src="img/mail-img.png" alt="Mail image">
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <nav class="footer-menu">
+            <a class="menu-logo" href="#">
+                <img src="img/logotype.png" alt="Site logotype">
+            </a>
+            <ul class="menu-items">
+                <li class="menu-items__item">
+                    <a class="menu-link" href="#opportunities">Про нас</a>
+                </li>
+                <li class="menu-items__item">
+                    <a class="menu-link" href="#production">Продукція та послуги</a>
+                </li>
+                <li class="menu-items__item">
+                    <a class="menu-link" href="#">Заявка</a>
+                </li>
+                <li class="menu-items__item">
+                    <a class="menu-link" href="#mail">Контакти</a>
+                </li>
+            </ul>
+            <div class="menu-contacts">
+                <a class="menu-contacts__info address" target="_blank" href="https://goo.gl/maps/djsx8JdnJxKB2w1LA">м Хмельницький. вул. Флотська, 5</a>
+                <a class="menu-contacts__info phone" href="tell:+380971234567">+380 97-12-34-567</a>
+            </div>
+        </nav>
+        <span class="copy">©2019 Всі права захищені</span>
+    </div>
+</footer>
+
+<div id="myModal" class="modal">
+
+    <div class="modal-content" id="mail-form">
+        <div class="close-btn">
+            <span class="close">&times;</span>
+        </div>
+        <div class="content-middle">
+            <h1 class="content-middle__ttl">зв'яжіться з нами</h1>
+            <form action="#" class="modal-form" id="modalCall" name="modal-form">
+                <div class="modal-form__group">
+                    <input type="text" class="modal-inp" id="modal-name" name="modalName" maxlength="20" placeholder="Ім'я">
+                </div>
+                <div class="modal-form__group">
+                    <input type="text" class="modal-inp" id="modal-phone" name="modalPhone" placeholder="Контактний телефон">
+                </div>
+                <button type="submit" class="modal-form__btn" name="modal-submit" onclick="valid(document.getElementById('modalCall'))">надіслати</button>
+            </form>
+        </div>
+    </div>
+      
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/jquery.inputmask.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
